@@ -25,6 +25,7 @@ export default defineUserConfig({
         link: '/menu/2022/eslint&prettier.html',
         collapsible: false,
         children: [
+          '/menu/2022/用户体验法则.md',
           '/menu/2022/eslint&prettier.md',
           '/menu/2022/switchTheme.md',
           '/menu/2022/async&await.md',
@@ -61,7 +62,6 @@ export default defineUserConfig({
           '/menu/2021/chromePlugin.md',
           '/menu/2021/dataType.md',
           '/menu/2021/workSummary.md',
-          '/menu/2021/teamBuild.md',
           '/menu/2021/teamWork.md',
         ]
       }
