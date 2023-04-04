@@ -21,9 +21,17 @@ export default defineUserConfig({
     ],
     sidebar: [
       {
+        text: '2023',
+        link: '/menu/2023/pnpm.html',
+        collapsible: false,
+        children: [
+          '/menu/2023/pnpm.md'
+        ]
+      },
+      {
         text: '2022',
         link: '/menu/2022/eslint&prettier.html',
-        collapsible: false,
+        collapsible: true,
         children: [
           '/menu/2022/用户体验法则.md',
           '/menu/2022/eslint&prettier.md',
