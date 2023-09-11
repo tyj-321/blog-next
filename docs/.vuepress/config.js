@@ -25,6 +25,7 @@ export default defineUserConfig({
         link: '/menu/2023/pnpm.html',
         collapsible: false,
         children: [
+          '/menu/2023/publish_npm.md',
           '/menu/2023/pnpm.md'
         ]
       },
